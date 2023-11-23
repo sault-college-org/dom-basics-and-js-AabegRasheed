@@ -5,11 +5,11 @@ const Home = () => {
 
   const homeHeader = document.createElement('h1');
   homeHeader.setAttribute('class', 'home-header custom-font');
-  homeHeader.innerHTML = 'RESTAURANT';
+  homeHeader.innerHTML = 'Fortnite Item Shop';
 
   const homeText = document.createElement('h3');
   homeText.setAttribute('class', 'home-text custom-font2');
-  homeText.innerHTML = 'A better experience for the most famous dishes.';
+  homeText.innerHTML = 'Fine dining in game';
 
   homeContent.appendChild(homeHeader);
   homeContent.appendChild(homeText);
